@@ -6,3 +6,12 @@ spring:
     active: dev
   application:
     name: job-agent
+
+powerjob:
+    worker:
+      enabled: true
+      port: 27777
+      app-name: seatunnel-job
+      server-address: 127.0.0.1:7700
+      protocol: http
+
